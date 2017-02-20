@@ -1,0 +1,44 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+
+
+.full {
+    background: url(../media/italybg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Bevel Buttons */
+
+.format_text a.bevel {
+	border-color: rgba(255, 255, 255, .2) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, .1) rgba(255, 255, 255, 0.2);
+	border-style: solid;
+	border-width: 3px;
+	color: #fff;
+	display: inline-block;
+	padding: .5em .8em;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+	a.bevel.red { background: #b20000 }
+	a.bevel { background: #f76c0f }
+	a.bevel.green { background: #248334 }
+	a.bevel.blue { background: #1086b6 }
+	a.bevel.gray { background: #aeaeae }
+	a.bevel.dark { background: #343434 }
+	.format_text .bevel:hover { color: #fff; opacity: .5 }
